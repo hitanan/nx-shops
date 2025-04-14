@@ -96,7 +96,7 @@ export const CartCartPage = () => {
         <StyledLi key={item.productId}>
           <a href={`/product/${item.productId}`}>
             <figure>
-              <img src={getProduct(productsState, item.productId).image} alt=''/>
+              <img src={getProduct(productsState, item.productId).image} />
             </figure>
           </a>
           <a href={`/product/${item.productId}`} className="title">
